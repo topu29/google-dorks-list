@@ -1,0 +1,85 @@
+Here could see an example to understand how Google Darks password used by hackers to gain sensitive information from specific websites.
+
+“inurl: domain/” “additional dorks
+A hacker would simply use in the desired parameters as follows:
+
+inurl = the URL of a site you want to query
+domain = the domain for the site
+dorks = the sub-fields and parameters that a hacker wants to scan
+The best way to use Google dorks legally is to find vulnerabilities on your own website.
+
+We can also use other search filed than URL that will help to uncover a lot of information about a site.
+
+intitle:
+inurl:
+intext:
+define:
+site:
+phonebook:
+maps:
+book:
+info:
+movie:
+weather:
+related:
+link:
+
+Some of the Example google dorks:
+info: The query [info:] will present some information that Google has about that web page. For instance, [info:www.google.com] will show information about the Google homepage. Note there can be no space between the “info:” and the web page url.
+
+link: The query [link:] will list webpages that have links to the specified webpage. For instance, [link:www.google.com] will list web pages that have links pointing to the Google homepage. Note there can be no space between the “link:” and the web page url.
+
+site: If you include [site:] in your query, Google will restrict the results to those websites in the given domain.
+
+For instance, [help site:www.google.com] will find pages about help within www.google.com. [help site:com] will find pages about help within .com urls. Note there can be no space between the “site:” and the domain.
+
+inurl: If you include [inurl:] in your query, Google will restrict the results to documents containing that word in the url. For instance, [inurl:google search] will return documents that mention the word “google” in their url, and mention the word “search” anywhere in the document (url or no).
+
+2020 Google Dorks List
+site:accounts..com/signin/ intitle:"index of" drupal intitle:"index of" admin inurl:login.cgi    Pages Containing Login Portals site:/joomla/administrator
+ inurl:/login/index.jsp -site:hertz.*
+ intitle:"Index of" inurl:wp-json/oembed    
+ intitle:"Index of" phpmyadmin
+ intitle:"Index of" wp-admin
+ intitle:index.of.?.sql
+ inurl: /filemanager/dialog.php
+ s3 site:amazonaws.com filetype:log
+ inurl:cgi/login.pl
+ inurl:zoom.us/j and intext:scheduled for
+ site:*/auth intitle:login
+ nurl: admin/login.aspx    Pages Containing Login Portals
+ "Index of" inurl:webalizer
+ "Index of" inurl:phpmyadmin
+ "Index of" inurl:htdocs inurl:xampp
+ s3 site:amazonaws.com intext:dhcp filetype:txt inurl:apollo
+ inurl:/index.aspx/login
+ site:amazonaws.com inurl:login.php
+ intitle:"IIS Windows Server" -inurl:"IIS Windows Server"
+ intitle:"Apache2 Ubuntu Default Page: It works"    
+ inurl:/filedown.php?file=
+ inurl:Dashboard.jspa intext:"Atlassian Jira Project Management Software"
+ inurl:app/kibana intext:Loading Kibana
+ site:https://docs.google.com/spreadsheets edit
+ inurl:8443 AND -intitle:8443 AND -intext:8443 prohibited|restricted|unauthorized
+ intitle:"index of" unattend.xml
+ inurl:/admin/index.php
+ inurl:bc.googleusercontent.com intitle:index of
+ inurl:office365 AND intitle:"Sign In | Login | Portal"
+ intext:"@gmail.com" AND intext:"@yahoo.com" filetype:sql
+ intitle:OmniDB intext:"user. pwd. Sign in."
+ intitle:"qBittorrent Web UI" inurl:8080
+ site:com inurl:jboss filetype:log -github.com
+ intitle:"index of" ".cpanel/caches/config/"
+ inurl:'/scopia/entry/index.jsp'
+inurl:/index.aspx/login
+ intitle: "index of" "./" "./bitcoin"
+ inurl:/portal/apis/fileExplorer/
+ intitle:"index of" "/aws.s3/"
+ intitle:"index of" hosts.csv | firewalls.csv | linux.csv | windows.csv
+ intitle:Test Page for the Nginx HTTP Server on Fedora
+ inurl:_cpanel/forgotpwd
+ intitle:"index of /" intext:/backup
+ intitle:"Swagger UI - " + "Show/Hide"
+ site:drive.google.com /preview intext:movie inurl:flv | wmv | mp4 -pdf -edit -view
+ intext:"class JConfig {" inurl:configuration.php
+ "index of" "database.sql.zip"
